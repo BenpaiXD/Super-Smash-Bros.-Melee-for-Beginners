@@ -1,0 +1,403 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url('../fonts/UniversBlack/Univers-Black.woff');
+}
+
+* {
+  font-family: "myFirstFont";
+}
+
+/*../fonts/UniversBlack/Univers-Black.woff*/
+
+body{
+	background-color:rgb(1,10,25);
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.clr{
+  clear: both;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+  background-color: rgba(0, 0, 0, 0.5);e;
+  color: white;
+  text-align: center;
+}
+
+#header2{
+  color: rgb(255,210,0);
+  text-align:center;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#header3{
+  color: rgb(255,210,0);
+  text-align:center;
+  font-size: 100px;
+  padding-top: 5%;
+  padding-bottom: 35%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  background-image: url('../images/monke.jpg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top center;
+}
+
+#header-image img{
+  margin: auto;
+  width: 80%;
+  position:
+
+}
+
+.some{
+  background-image: url('../images/characterApproching.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.some2{
+  background-image: url('../images/meleeMenuBackground.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.some3{
+  background-image: url('../images/CharaterSelect.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  background-position: center 20%;
+}
+
+.some4{
+  background-image: url('../images/topPlayers.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  background-position: center 20%;
+}
+.some5{
+  background-image: url('../images/fd.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  background-position: center 80%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.options{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px rgb(136, 142, 154) solid;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: rgb(75, 85, 95);
+  position: relative;
+  color: rgb(255,210,0);
+}
+
+.options a{
+  border-radius: 20px;
+  font-family: 'myFirstFont';
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(255,210,0);
+  border: solid 8px rgb(255,210,0);
+  padding-bottom: 5px
+}
+
+.options a:hover{
+  background-color: rgb(255,210,0);
+  color: rgb(1,10,25);
+}
+
+.options img{
+  margin: auto;
+  float: right;
+  height: auto;
+  padding: auto;
+  width: 12%;
+  box-sizing:  border-box;
+}
+.options p{
+  float: left;
+  font-size: 20px;
+  margin-left: 21px;
+}
+
+.title{
+  float: left;
+  width: 88%;
+
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+  border-right: 30px;
+
+  box-sizing: border-box;
+}
+
+.title2{
+  float: center;
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+  border-right: 30px;
+
+  box-sizing: border-box;
+}
+
+.title3{
+  color: rgb(255,210,0);
+  text-align:center;
+  font-size: 70px;
+  margin: 5px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.main-footer{
+  background: rgb(75, 85, 95);
+	color: rgb(0,0,0);
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+  border: 2px rgb(136, 142, 154) solid;
+}
+
+.navbar{
+  position: sticky;
+
+}
+
+#navbar{
+  text-align: center;
+}
+
+#navbar ul{
+  list-style: none;
+}
+
+#navbar li{
+  margin-top: 20px;
+  display: inline;
+}
+
+#navbar a{
+  border-radius: 20px;
+  font-family: 'myFirstFont';
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255,210,0);
+  border: solid 5px rgb(255,210,0);
+
+  padding-bottom: 5px
+}
+
+#navbar a:hover{
+  background-color: rgb(255,210,0);
+  color: rgb(1,10,25);
+}
+
+#charSelect ul{
+  list-style: none;
+}
+
+#charSelect{
+  text-align: center;
+}
+
+#charSelect li{
+  margin-top: 20px;
+  display: inline;
+}
+#charSelect img{
+  max-width: 200px
+
+}
+
+h2{
+  color: rgb(255,210,0);
+  text-align:center;
+  font-size: 50px;
+  padding: 10px;
+  border: 10px rgb(255,210,0) solid;
+  border-radius: 20px;
+}
+
+.block{
+  background: rgb(75, 85, 95);
+	color: rgb(0,0,0);
+	text-align: center;
+	padding:20px;
+  padding-top: 0px;
+  border: 2px rgb(136, 142, 154) solid;
+  border-radius: 15px;
+  font-size: 24px;
+  text-align: left;
+  margin: auto;
+  margin-top:40px;
+  overflow:hidden;
+  line-height: 1.6;
+}
+.block figure img{
+  max-width: 495px;
+}
+
+
+.block .centered{
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
+
+
+.halfBlock{
+  background: rgb(75, 85, 95);
+	color: rgb(0,0,0);
+	text-align: center;
+	padding:20px;
+  padding-top: 0px;
+  border: 2px rgb(136, 142, 154) solid;
+  border-radius: 15px;
+  font-size: 24px;
+  text-align: left;
+  margin: auto;
+  margin-top:40px;
+  margin-left: 11px;
+  overflow:hidden;
+  line-height: 1.6;
+  box-sizing: border-box;
+  width:49%;
+  float:left;
+}
+
+.halfBlock p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.figClass{
+  float: right;
+  max-width: 500px;
+  margin: 0px;
+  border: 2px black solid;
+  text-align:center;
+}
+
+.figClass figcaption{
+  line-height: 1;
+  padding: none;
+}
+
+.icon{
+  width:15%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  line-height: 0;
+}
+
+.top{
+  position: fixed;
+  margin-right: 5px;
+  bottom: 16px;
+  right: 32px;
+}
+.button{
+    border-radius: 20px;
+    font-family: 'myFirstFont';
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255,210,0);
+    border: solid 5px rgb(255,210,0);
+
+    padding-bottom: 5px
+}
+
+.button:hover{
+  background-color: rgb(255,210,0);
+  color: rgb(1,10,25);
+}
+
+.pfp{
+  width:70%;
+  float:left;
+  box-sizing: border-box;
+}
+
+.socials{
+  margin-top:0;
+  width: 30%;
+  box-sizing: border-box;
+  float:right;
+}
+
+
+.socials h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(255,210,0);
+  text-align:center;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.socialLinks{
+  position: relative;
+}
+.socialLinks img{
+  float: left;
+  width: 40%;
+  margin: 0% 5%;
+  display:block;
+  vertical-align: middle;
+
+}
+
+.pfpInfo{
+  overflow:hidden;
+}
+
+@media(min-width:1600px) {
+  .block{
+    width: 1235px;
+  }
+}
+
+@media (max-width:986px) {
+  #navbar li{
+    display:block;
+  }
+  #charSelect li{
+    display:block;
+  }
+}
